@@ -1,0 +1,69 @@
+/* all pages background color */
+body{
+    background-color: pink;
+}
+/* top page background color */
+.box{
+    background-color: beige;
+}
+/* titels */
+h1{
+    color: rgb(179, 179, 179);
+}
+h2{
+    padding-left: 55%;
+    color: burlywood;
+}
+/* container with a photo as symbol for watches */
+.container1{
+    width: 1000px;
+    height: 650px;
+    background-image:url("https://fondosdepantallaymuchomas.files.wordpress.com/2014/10/5be46-81.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+}
+/* catalogue of watches */
+.container2{
+    background-color: rgb(255, 186, 238);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* my imgs adjustments */
+img{
+    padding-top: 10px;
+    width: 250px;
+    height: 250px;
+    
+}
+/* background of the extra sections  */
+.pinkWatch{
+    background-color: rgb(255, 186, 238);
+}
+/* adjustments of the extra sections for more details */
+.box11{
+    height: 500px;
+    width: 400px;
+    background-color: beige;
+    margin-top: 0;
+    margin-left: 40%;
+}
+/* imgs adjustment in the cathalogue or in the more details sections */
+#pink{
+    width: 350px;
+    height:300px;
+    margin-left: 20px;
+} 
+/* details of the watches */
+.pink2{
+    margin-left: 10%;
+
+}
+/* go back botton */
+#white{ 
+    border: 2px solid white;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+}
